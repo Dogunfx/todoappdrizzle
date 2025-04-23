@@ -1,5 +1,5 @@
 // app/api/todos/route.ts
-import { drizzleDb, sql } from "../../../lib/db";
+import { drizzleDb } from "../../../lib/db";
 import { todos } from "../../../lib/schema";
 
 export async function GET() {
